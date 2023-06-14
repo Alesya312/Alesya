@@ -1,0 +1,30 @@
+h1{
+    border: red 3px dashed;
+}
+
+.about {
+    max-width: 605px;
+    box-sizing: border-box;
+    border: green 1px solid;
+    padding: 19px;
+}
+ul{
+    list-style-type: square;
+}
+.album {
+    border-top: 1px dotted;
+    border-right: 3px red double;
+    border-bottom: 3px green solid;
+    border-left: 1px blue solid;   
+    margin: 20px 0; 
+}
+.text {
+    border: 1px green solid;
+}
+
+span{
+    white-space: nowrap;
+}
+.underline{
+    text-decoration: underline;
+}

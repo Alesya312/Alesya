@@ -1,0 +1,18 @@
+.firstcard {
+    width: 143px;
+    height: 194px;
+    background: url('img/cards2.png') -286px -388px no-repeat;
+}
+.secondcard {
+    width: 143px;
+    height: 190px;
+    background: url('img/cards2.png') -143px -1358px no-repeat;
+    margin: -95px 0 0 72px;
+}
+.thirdcard {
+    width: 143px;
+    height: 190px;
+    background: url('img/cards2.png') -429px -2132px no-repeat;
+    margin: -95px 0 0 144px;
+}
+

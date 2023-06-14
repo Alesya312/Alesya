@@ -1,0 +1,35 @@
+body{
+    font-size: 20px;
+}
+h1{
+    border: red 3px dashed;
+    background: yellow;
+}
+
+.about {
+    box-sizing: border-box;
+    border: green 1px solid;
+    padding: 19px;
+    background: url('img/SG1998.jpg') center no-repeat;
+}
+ul{
+    list-style-type: square;
+}
+.album {
+    border-top: 1px dotted;
+    border-right: 3px red double;
+    border-bottom: 3px green solid;
+    border-left: 1px blue solid;   
+    margin: 20px 0; 
+    background: url(img/skrip.gif);
+}
+.text {
+    border: 1px green solid;
+}
+
+span{
+    white-space: nowrap;
+}
+.underline{
+    text-decoration: underline;
+}
