@@ -1,0 +1,15 @@
+body{
+    font-size: 25px;
+}
+div{
+    padding: 100px;
+    background: 
+       url('img/TL.png') top left no-repeat, 
+       url('img/BL.png') bottom left no-repeat, 
+       url('img/TR.png') top right no-repeat, 
+       url('img/BR.png') bottom right no-repeat,
+       url('img/L.png') left top repeat-y,
+       url('img/R.png') right top repeat-y,
+       url('img/T.png') top repeat-x,
+       url('img/B.png') bottom repeat-x;
+}

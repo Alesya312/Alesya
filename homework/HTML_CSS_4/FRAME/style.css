@@ -1,0 +1,28 @@
+body{
+    font-size: 25px;
+}
+.left{
+    background: url('img/L.png') left top repeat-y;
+   }
+.right{
+    background: url('img/R.png') right top repeat-y;
+}
+.top{
+    background: url('img/T.png') top repeat-x;
+}
+.bottom{
+    background: url('img/B.png') bottom repeat-x;
+}
+.top_left{
+    background: url('img/TL.png') top left no-repeat;
+}
+.bottom_left{
+    background: url('img/BL.png') bottom left no-repeat;
+}
+.top_right{
+    background: url('img/TR.png') top right no-repeat;
+}
+.bottom_right_text{
+    padding: 100px;
+    background: url('img/BR.png') bottom right no-repeat;
+}
