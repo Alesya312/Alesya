@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+}
+.main{
+    background: #ADD8E6;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    width: 250px;
+    background: #F0E68C;
+    
+}
+.title_list{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px;
+}
+img{
+    float: left;
+}
+li{
+    padding: 0 20px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.football{
+    background: url(img/ball.png) right top repeat-y;
+}

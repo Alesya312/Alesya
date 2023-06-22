@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.head {
+    background: #ADD8E6;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    float: left;
+    width: 250px;
+    background: #F0E68C;
+    padding: 20px;
+}
+
+.title_list {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.football {
+    background: url(img/ball.png) right top repeat-y;
+    margin: 0 0 0 260px;
+}
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+img{
+padding: 0 20px;
+}
+
+img {
+    float: left;
+}
+
+.empty {
+    clear: both;
+}
+
+.bottom {
+    background: #ADD8E6;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
