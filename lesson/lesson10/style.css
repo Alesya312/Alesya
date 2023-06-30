@@ -1,0 +1,46 @@
+div li a{
+color: red;
+}
+div li span a{
+    color: green;
+}
+div ul li em a{
+    color: blue;
+}
+div > p em a{
+    color: yellow;
+}
+div > span a{
+    color: black;
+}
+body > ul > li > a{
+    color: orange;
+}
+body > ul > li > span > a{
+    color: rosybrown;
+}
+body > ul > li > em > a{
+    color: violet;
+}
+ul li p em a{
+    color: aqua;
+}
+li div p a{
+    color: white;
+    background-color: black;
+}
+li div li:first-child a{
+    color: indigo;
+}
+ 
+li  div li:nth-child(2) a{
+    color: chocolate;
+}
+
+li div li:last-child a{
+    color: brown;
+}
+
+body > p a{
+    color: grey;
+}
