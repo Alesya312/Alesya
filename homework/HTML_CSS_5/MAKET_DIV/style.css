@@ -10,7 +10,9 @@
     text-align: center;
     padding: 20px;
 }
-
+.content{
+    background: url('img/background.jpg') repeat-y;
+}
 .menu {
     float: left;
     width: 250px;
