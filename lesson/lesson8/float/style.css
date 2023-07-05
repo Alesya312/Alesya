@@ -1,0 +1,43 @@
+body {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.header {
+    height: 50px;
+    background: violet;
+}
+
+.wrapper {
+    background-color: chocolate;
+}
+
+.menu {
+    float: left;
+    height: 300px;
+    width: 200px;
+    background: palegreen;
+}
+
+.banner {
+    float: right;
+    height: 300px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.content {
+    background-color: bisque;
+    margin: 0 200px;
+    padding: 0 20px;
+}
+
+.footer {
+    background-color: yellowgreen;
+}

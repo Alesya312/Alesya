@@ -1,0 +1,16 @@
+@media all and (max-width: 1500px) {
+    .content{
+        background: grey;
+    }
+}
+@media all and (max-width: 570px) {
+    .menu{
+        float: none;
+    }
+    .banner{
+        float: none;
+    }
+    .content{
+        margin: 0;
+    }
+}
