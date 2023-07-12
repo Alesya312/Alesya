@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            position: relative;
+            width: 495px;
+            height: 245px;
+            border: 2px solid red;
+            margin: 200px auto;
+        }
+
+        div:hover .little {
+            position: absolute;
+            top: -200px;
+        }
+
+        .big {
+            position: absolute;
+        }
+
+        .little {
+            position: absolute;
+            left: 24px;
+            top: 10px;
+            z-index: 3;
+            transition: 0.5s;
+        }
+
+        .big2 {
+            position: relative;
+            z-index: 4;
+        }
+    </style>
+    <title>TEFAL</title>
+</head>
+
+<body>
+    <h1>TEFAL</h1>
+    <div>
+        <img class="little" src="img/little.png" alt="">
+        <img class="big" src="img/big.png" alt="">
+
+        <img class="big2" src="img/big2.png" alt="">
+    </div>
+</body>
+
+</html>
