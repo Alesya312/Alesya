@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+span{
+    color:  red;
+}
+fieldset{
+    margin: 10px 0;
+}
+label{
+display: inline-block;
+margin: 10px 0;
+}
+
+fieldset p{
+    float: left;
+    margin: 0;
+}
+[type=submit]{
+    min-height: 50px;
+}
+[type=checkbox]{
+    float: left;
+}
+
+fieldset:last-of-type label{
+    margin: 10px;
+}
+select{
+    margin: 10px 0;
+}

@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+div{
+    width: 142px;
+    height: 194px;
+}
+.first{
+background: url(cards.png) -286px -2386px no-repeat;
+}
+.second{
+    background: url(cards.png) 0 -1988px no-repeat;
+    margin: -120px 0 0 65px;
+}
+.third{
+    background: url(cards.png) -430px -1586px no-repeat;
+    margin: -120px 0 0 125px;
+}
