@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 20px 10px;
+}
+
+a {
+    color: green;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.unicode a::after {
+    content: '  \2223';
+    color: red;
+    font-size: 25px;
+}
+
+.unicode a:last-child::after {
+    content: '';
+}
+
+.keyboard {
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.after a::after {
+    content: ' |';
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.after a:last-child::after {
+    content: '';
+}
+
+.img img {
+    margin: 0 3px -4px;
+}
+
+.after_img a::after {
+    content: url(line.png);
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+}
+
+.after_img a:last-child::after {
+    content: '';
+}

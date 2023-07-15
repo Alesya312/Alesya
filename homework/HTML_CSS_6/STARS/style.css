@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.star0{
+    float: left;
+}
+.star0 div{
+    float: right;
+}
+
+.star0 div:hover{
+ content: url('img/star1.png');
+}
+.star0 div:hover~div{
+    content: url('img/star1.png');
+   }
