@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICT</title>
+</head>
+
+<body>
+    <h1>PICT</h1>
+    <h2>Использование с частично поддерживаемыми типами изображений</h2>
+    <picture>
+        <source srcset="img/avif.avif" type="image/avif">
+        <source srcset="img/webp.webp" type="image/webp">
+        <img src="img/jpg.jpg" alt="Формат">
+    </picture>
+    <h2>Ориентация графики</h2>
+    <picture>
+        <source media="(orientation: landscape)" srcset="img/landscape.jpg">
+        <source media="(orientation: portrait)" srcset="img/portrait.jpg">
+        <img src="img/landscape.jpg" alt="ориетация">
+    </picture>
+    <h2>Определение нужного размера</h2>
+    <picture>
+        <source media="(min-width: 1220px)" srcset="img/test.jpg">
+        <source media="(min-width: 980px)" srcset="img/big.jpg">
+        <source media="(min-width: 720px)" srcset="img/medium.jpg">
+        <img src="img/small.jpg" alt="Размер">
+    </picture>
+
+</body>
+
+</html>

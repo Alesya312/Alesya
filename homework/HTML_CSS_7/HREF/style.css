@@ -1,0 +1,39 @@
+.name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.birthdate {
+    color: green;
+}
+
+.title {
+    color: red;
+    font-weight: 700;
+}
+
+.about {
+    color: blue;
+    font-style: italic;
+}
+
+.link {
+    background: url('img/extref.png') 0 5px no-repeat;
+    padding: 0 0 0 12px;
+    text-decoration: none;
+}
+
+@media print {
+    a[href^=http]::before {
+        content: "\0022(ссылка ";
+    }
+
+    a[href^=http]::after {
+        content: " на " attr(href)")\0022";
+    }
+
+    .link {
+        padding: 0;
+    }
+
+}
