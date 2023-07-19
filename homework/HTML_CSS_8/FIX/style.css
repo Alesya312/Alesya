@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.head {
+    background: #ADD8E6;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.invite {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    color: purple;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: rgb(118, 187, 118);
+    border: 2px solid green;
+    width: 150px;
+    position: fixed;
+    right: 26px;
+    top: 40px;
+    opacity: 0.8;
+}
+
+.content {
+    background: url('img/background.jpg') repeat-y;
+    margin: -15px 0 0 0;
+}
+
+.menu {
+    float: left;
+    max-width: 250px;
+    background: #F0E68C;
+    padding: 20px;
+}
+
+.title_list {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.football {
+    background: url(img/ball.png) right top repeat-y;
+    margin: 0 0 0 260px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0;
+    padding: 20px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0;
+    padding: 20px 0;
+}
+
+.left {
+    float: left;
+    padding: 0 20px;
+}
+
+.right {
+    width: 340px;
+    float: right;
+    padding: 0 20px;
+}
+
+p:last-child {
+    padding: 0 0 20px 0;
+}
+
+.bottom {
+    background: #ADD8E6;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+@media all and (max-width:970px) {
+
+    h2,
+    h3 {
+        margin: 5px 0;
+    }
+
+    .content {
+        margin: -5px 0 0 0;
+        background: url(img/background2.jpg) repeat-y;
+    }
+
+    .football {
+        margin: 0 0 0 210px;
+    }
+}
+
+@media all and (max-width:710px) {
+    .left {
+        float: none;
+        width: 100%;
+    }
+
+    .right {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:390px) {
+    .menu {
+        float: none;
+        background: #f0e78c;
+        max-width: 100%;
+    }
+
+    .content {
+        background: none;
+        margin: 0;
+    }
+
+    .football {
+        margin: 0;
+    }
+
+    .head,
+    .bottom {
+        font-size: 22px;
+        padding: 10px;
+    }
+}

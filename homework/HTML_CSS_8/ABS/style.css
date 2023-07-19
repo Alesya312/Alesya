@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.img {
+    width: 420px;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.yin_and_yang {
+    position: absolute;
+    top: 182px;
+    left: 90px;
+}
+
+.no_smoking {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.img:hover .no_smoking {
+    z-index: -1;
+}
