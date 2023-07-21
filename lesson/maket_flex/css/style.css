@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@400;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus,
+:active {
+  outline: none; }
+
+a:focus,
+a:active {
+  outline: none; }
+
+nav,
+footer,
+header,
+aside {
+  display: block; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input,
+button,
+textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a,
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+.container {
+  width: 1296px;
+  margin: 0 auto; }
+
+h2 {
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.48px; }
+
+.header_up {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+  .header_up .title {
+    width: 217px;
+    color: #EC1B2E;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+    text-transform: uppercase; }
+    .header_up .title_contact {
+      width: 674px; }
+      .header_up .title_contact ul {
+        display: flex;
+        justify-content: space-between; }
+      .header_up .title_contact li {
+        font-family: 'Ysabeau Office', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; }
+      .header_up .title_contact li:last-child {
+        margin: 0; }
+      .header_up .title_contact img {
+        margin: 0 20px 0 0; }
+    .header_up .title_button {
+      color: #fff;
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      padding: 10px 20px;
+      background: #EC1B2E; }
+.header_down {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header_down .menu ul {
+    display: flex; }
+    .header_down .menu ul li {
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      letter-spacing: 0.28px;
+      text-transform: uppercase;
+      margin: 0 20px 0 0; }
+    .header_down .menu ul li:last-child {
+      margin: 0; }
+
+.slider {
+  background: url(../img/R.jpg) lightgray 50%/cover no-repeat no-repeat;
+  overflow: hidden; }
+  .slider .content {
+    margin: 126px 597px 156px 90px; }
+    .slider .content_text {
+      background: rgba(51, 51, 51, 0.5);
+      padding: 15px 30px;
+      color: #fff;
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 140%; }
+    .slider .content a {
+      display: inline-block;
+      color: #fff;
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      background: var(--accent, #EC1B2E);
+      margin: 50px 0 0 0;
+      padding: 15px 30px; }
+
+.about .container {
+  background: url(../img/Frame\ 42.png) right center no-repeat; }
+.about_text {
+  margin: 191px 560px 150px 90px;
+  position: relative;
+  border: 10px solid var(--accent, #EC1B2E);
+  padding: 86px 90px 76px; }
+  .about_text h2 {
+    position: absolute;
+    top: -41px;
+    left: 60px;
+    background: #fff;
+    padding: 0 30px; }
+  .about_text p {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    padding: 0 0 20px 0; }
+  .about_text p:last-child {
+    padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
