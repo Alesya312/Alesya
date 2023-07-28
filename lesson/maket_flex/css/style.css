@@ -80,10 +80,10 @@ h6 {
 h2 {
   font-family: 'Ysabeau Office', sans-serif;
   font-size: 48px;
-  font-style: normal;
   font-weight: 800;
   line-height: 140%;
-  letter-spacing: 0.48px; }
+  letter-spacing: 0.48px;
+  text-align: center; }
 
 .header_up {
   height: 60px;
@@ -171,7 +171,7 @@ h2 {
       padding: 15px 30px; }
 
 .about .container {
-  background: url(../img/Frame\ 42.png) right center no-repeat; }
+  background: url(../img/Frame42.1.png) right center no-repeat; }
 .about_text {
   margin: 191px 560px 150px 90px;
   position: relative;
@@ -190,5 +190,161 @@ h2 {
     padding: 0 0 20px 0; }
   .about_text p:last-child {
     padding: 0; }
+
+.price ul.course {
+  display: flex;
+  margin: 150px -24px 100px -24px;
+  justify-content: center;
+  position: relative; }
+  .price ul.course li {
+    font-family: 'Ysabeau Office', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    padding: 0 24px; }
+  .price ul.course li.orange {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 12px 20px;
+    background: var(--accent, #EC1B2E);
+    align-self: flex-start;
+    width: 175px; }
+  .price ul.course li.orange:nth-child(2) {
+    position: absolute;
+    bottom: 81px;
+    left: 145px; }
+  .price ul.course li.orange:nth-child(4) {
+    position: absolute;
+    bottom: 81px;
+    left: 432px; }
+.price .table {
+  width: 1076px;
+  margin: 0 auto; }
+  .price .table .head {
+    background: rgba(51, 51, 51, 0.05);
+    display: flex;
+    justify-content: space-between; }
+    .price .table .head li {
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 140%; }
+    .price .table .head .one {
+      flex: 1 0 15%; }
+    .price .table .head .two {
+      flex: 1 0 28%; }
+    .price .table .head .three {
+      flex: 1 0 57%; }
+  .price .table .schedule {
+    display: flex;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2); }
+    .price .table .schedule li {
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 18px;
+      line-height: 140%;
+      margin: 40px 0 30px; }
+    .price .table .schedule .one {
+      flex: 1 0 16%; }
+    .price .table .schedule .two {
+      flex: 1 0 29%; }
+    .price .table .schedule .three {
+      flex: 1 0 55%; }
+    .price .table .schedule p {
+      text-align: left;
+      margin: 0 0 18px 0; }
+  .price .table .schedule:last-child {
+    border: none; }
+
+.exams {
+  margin: 150px 0; }
+  .exams .about_exams {
+    display: flex; }
+    .exams .about_exams .exam {
+      margin: 100px 10px 0 10px; }
+      .exams .about_exams .exam p {
+        font-family: 'Ysabeau Office', sans-serif;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        margin: 30px 0 20px; }
+      .exams .about_exams .exam ul {
+        padding: 0 20px; }
+        .exams .about_exams .exam ul li {
+          font-family: 'Ysabeau Office', sans-serif;
+          list-style: disc;
+          font-size: 16px;
+          line-height: 140%;
+          padding: 0 0 10px 0; }
+      .exams .about_exams .exam a {
+        display: inline-block;
+        font-family: 'Ysabeau Office', sans-serif;
+        color: var(--white, #FFF);
+        font-size: 16px;
+        line-height: 140%;
+        background: var(--accent, #EC1B2E);
+        padding: 15px 30px;
+        margin: 35px 71px 0 72px; }
+
+.event_label {
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 30px 0 15px 0; }
+
+.event_about {
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size: 16px;
+  line-height: 140%; }
+
+.events .event {
+  display: flex;
+  margin: 100px 0 0 0; }
+  .events .event .event_item {
+    margin: 0 24px 0 0; }
+    .events .event .event_item .event_text {
+      margin: 0 30px;
+      overflow: hidden; }
+      .events .event .event_item .event_text a {
+        display: inline-block;
+        padding: 15px 30px;
+        background: var(--accent, #EC1B2E);
+        font-family: 'Ysabeau Office', sans-serif;
+        color: var(--white, #FFF);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        margin: 30px 0 0 0; }
+  .events .event .event_item:last-child {
+    margin: 0; }
+
+.news {
+  margin: 150px 0 120px 0; }
+  .news .new {
+    margin: 70px 0 0 0;
+    display: flex; }
+    .news .new_item {
+      flex: 1 0 24%;
+      margin: 0 11px;
+      display: flex;
+      flex-direction: column; }
+    .news .new .event_about {
+      margin: 0 0 35px 0;
+      flex: 1 1 auto; }
+    .news .new a {
+      display: inline-block;
+      padding: 15px 30px;
+      background: var(--accent, #EC1B2E);
+      color: var(--white, #FFF);
+      font-family: 'Ysabeau Office', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 140%;
+      align-self: flex-start; }
 
 /*# sourceMappingURL=style.css.map */

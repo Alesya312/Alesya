@@ -1,0 +1,52 @@
+body {
+    font-size: 26px;
+}
+
+#first {
+    display: none;
+}
+
+[for="first"] {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url(1.webp) -10px -10px no-repeat;
+    background-size: 125px;
+}
+
+#first:checked + [for="first"] {
+    background-position: -67.5px -10px
+}
+
+#second {
+    display: none;
+}
+
+[for="second"] {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 26px;
+    background: #a3a3a3;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+[for="second"]::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: 0.5s;
+}
+#second:checked + [for="second"]{
+    background: greenyellow;
+}
+#second:checked + [for="second"]::before{
+    top: 2px;
+    left:35px
+}
