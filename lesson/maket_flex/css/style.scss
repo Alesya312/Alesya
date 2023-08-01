@@ -468,13 +468,15 @@ h2 {
             margin: 0 11px;
             display: flex;
             flex-direction: column;
-            
+
         }
-.event_about{
-    margin: 0 0 35px 0;
-    flex: 1 1 auto;
-    
-}
+
+        .event_about {
+            margin: 0 0 35px 0;
+            flex: 1 1 auto;
+
+        }
+
         a {
             display: inline-block;
             padding: 15px 30px;
@@ -485,7 +487,98 @@ h2 {
             font-weight: 700;
             line-height: 140%;
             align-self: flex-start;
-            
+
         }
     }
+}
+
+.footer {
+
+    li {
+        font-family: 'Ysabeau Office', sans-serif;
+        font-style: 14px;
+        line-height: 140%;
+        margin: 0 0 15px 0;
+    }
+
+    li:last-child {
+        margin: 0;
+    }
+
+    &_up {
+        margin: 60px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &_down {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgba(51, 51, 51, 0.3);
+
+        p {
+            font-family: 'Ysabeau Office', sans-serif;
+            text-align: right;
+            font-size: 14px;
+            line-height: 140%;
+            opacity: 0.5;
+        }
+    }
+}
+
+.contact p {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    margin: 0 0 42px 0;
+}
+
+.text {
+
+    &_footer {
+        font-family: 'Ysabeau Office', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 140%;
+        margin: 0 0 25px 0;
+    }
+
+    &_footer:nth-child(3) {
+        margin: 40px 0 25px 0;
+    }
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 42px 0 0 0;
+}
+
+.contact {
+    flex: 1 1 15%;
+}
+
+.about_us {
+    flex: 1 1 15%;
+    margin: 0 69px 0 73px;
+}
+
+.pay_chine {
+    flex: 1 1 15%;
+}
+
+.footer_exams {
+    flex: 1 1 15%;
+    margin: 0 69px;
+}
+
+.footer_school {
+    flex: 1 1 18%;
 }
