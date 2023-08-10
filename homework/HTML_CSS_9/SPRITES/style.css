@@ -1,0 +1,21 @@
+@keyframes m_animation {
+    0% {
+        background: url('img/sprite.png') 0 0;
+    }
+
+    100% {
+        background: url('img/sprite.png') -1600px 0;
+        top: 0;
+        left: 600px;
+    }
+}
+
+
+.sprite {
+    width: 200px;
+    height: 238px;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: m_animation 3s steps(8) infinite;
+}
