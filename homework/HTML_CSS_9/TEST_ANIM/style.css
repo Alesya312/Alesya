@@ -1,0 +1,78 @@
+.container {
+    width: 1300px;
+    height: 500px;
+    background: rgb(0, 7, 92);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes first_amim {
+    0% {
+        top: -150px;
+    }
+
+    50% {
+        top: 150px;
+    }
+
+    100% {
+        top: -150px;
+    }
+}
+
+.move {
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: first_amim 2s linear infinite;
+}
+
+.increase {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: greenyellow;
+
+}
+
+.container:hover .increase {
+    transform: scale(1.5);
+}
+
+.jump {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: red;
+}
+
+.container:hover .jump {
+    transform: translateY(-100px);
+}
+
+.color {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: orange;
+    transition-duration: 3s;
+}
+
+.container:hover .color {
+    background: blueviolet;
+    transition-duration: 3s;
+}
+
+.turn {
+    width: 150px;
+    height: 150px;
+    background: rgb(15, 228, 192);
+}
+
+.container:hover .turn {
+    transform: rotate(-50deg);
+}
