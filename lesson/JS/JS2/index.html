@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #items {
+            width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: wrap;
+        }
+
+        #items>div {
+            margin: 20px;
+        }
+
+        #items>div:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="here()">click here</button>
+    <button onclick="price()">price</button>
+    <div id="items"></div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script>
+
+    var phone = [
+        {
+            name: 'Apple',
+            year: '2023',
+            color: 'Белый',
+            sale: true,
+            imgUrl: 'https://content2.onliner.by/catalog/device/header/9db8772365948e2e9f8837d4932e7de9.jpeg',
+            prace: 20,
+        },
+        {
+            name: 'Xiaomi',
+            year: '2022',
+            color: 'Синий',
+            sale: true,
+            imgUrl: 'https://content2.onliner.by/catalog/device/header/4deb4bec00efa322eb42b8c16351a899.jpeg',
+            prace: 40,
+        },
+        {
+            name: 'Samsung',
+            year: '2023',
+            color: 'Черный',
+            sale: false,
+            imgUrl: 'https://content2.onliner.by/catalog/device/header/4b39d99305edd5aafb3d0c0af3bfc184.jpeg',
+            prace: 60,
+        }
+    ]
+
+    var click = document.getElementById('items');
+    function here() {
+        var phoneHtml = '';
+        for (var i = 0; i < phone.length; i++) {
+            phoneHtml += `
+                <div class="card" style="width: 18rem;">
+                    <img src="${phone[i].imgUrl}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">${phone[i].name}</h5>
+                            <h3 class="card-title">${phone[i].year}</h3>
+                            <h3 class="card-title">${phone[i].color}</h3>
+                        </div>
+                </div>
+                `
+        }
+        click.innerHTML = phoneHtml;
+    }
+    var click = document.getElementById('items');
+    function price() {
+        var phoneHtml = '';
+        for (var i = 0; i < phone.length; i++) {
+            if (phone[i].prace <= 40) {
+                phoneHtml += `
+                <div class="card" style="width: 18rem;">
+                    <img src="${phone[i].imgUrl}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">${phone[i].name}</h5>
+                            <h3 class="card-title">${phone[i].year}</h3>
+                            <h3 class="card-title">${phone[i].color}</h3>
+                        </div>
+                </div>
+                `
+            }
+        }
+        click.innerHTML = phoneHtml;
+    }
+
+</script>
+
+</html>

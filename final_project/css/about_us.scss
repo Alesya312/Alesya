@@ -1,0 +1,37 @@
+@import '../fonts/fonts.scss';
+@import 'style0.scss';
+@import 'footer.scss';
+@import 'header.scss';
+
+body {
+    font-family: PT Serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about {
+    margin: 122px 0 58px;
+
+    .about_us {
+        display: flex;
+
+        .about_text {
+            .about_text_tittle {
+                color: #0A0A0B;
+                font-size: 65px;
+                line-height: 67px;
+                margin: 40px 0 57px;
+            }
+
+            .about_text_text {
+                color: #3B3D40;
+                font-size: 20px;
+                line-height: 34px;
+                margin: 0 51px 0 0;
+            }
+        }
+    }
+}

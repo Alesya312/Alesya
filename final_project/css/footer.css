@@ -1,0 +1,63 @@
+footer {
+  background: #141416;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .fotter_img {
+  flex: 1 1 20%;
+  margin: 133px 10px 104px 0;
+}
+footer .footer .fotter_img .footer_img_up .footer_name {
+  color: #ECECEC;
+  font-size: 17px;
+  margin: 28px 0 39px 0;
+}
+footer .footer .fotter_img .footer_img_up a {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+footer .footer .fotter_img .footer_img_down {
+  color: #A8A8A8;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 77px 0 0 0;
+}
+footer .footer .fotter_img .footer_img_down div {
+  margin: 0 0 22px 0;
+}
+footer .footer .fotter_img .footer_img_down div:last-child {
+  margin: 0;
+}
+footer .footer .fotter_img .footer_img_down .second {
+  display: flex;
+}
+footer .footer .fotter_img .footer_img_down .second p {
+  margin: 0 19px 0 0;
+}
+footer .footer .footer_navig {
+  margin: 133px 0 104px 10px;
+  flex: 1 1 76%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .footer_navig .navig_item {
+  flex: 1 1 30%;
+  margin: 0 20px;
+}
+footer .footer .footer_navig .navig_item .navig_title {
+  color: #A8A8A8;
+  font-size: 16px;
+  margin: 0 0 31px 0;
+}
+footer .footer .footer_navig .navig_item .navig_list li {
+  color: #ECECEC;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0 0 21px 0;
+}
+footer .footer .footer_navig .navig_item .navig_list li ul li::before {
+  content: url(../img/main/Ellipse\ 1.svg);
+  padding: 0 10px 0 0;
+}/*# sourceMappingURL=footer.css.map */

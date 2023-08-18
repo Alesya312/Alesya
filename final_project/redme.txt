@@ -1,0 +1,5 @@
+ 
+index.html:
+1. <section class="projects"> всё
+2. news - картинки на фоне
+3. partners - фон сместить вверх
