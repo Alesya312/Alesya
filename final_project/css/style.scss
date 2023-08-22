@@ -11,6 +11,10 @@ body {
     margin: 0 auto;
 }
 
+a {
+    cursor: url('../img/news/cursor2.svg'), pointer;
+}
+
 header {
     background: url('../img/main/Rectangle.png') 0 0 no-repeat;
     background-size: cover;

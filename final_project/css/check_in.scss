@@ -1,0 +1,108 @@
+@import '../fonts/fonts.scss';
+@import 'style0.scss';
+
+body {
+    font-family: PT Serif;
+}
+
+a {
+    cursor: url('../img/news/cursor2.svg'), pointer;
+}
+
+.check_in {
+    width: 100%;
+    display: flex;
+
+
+    .form {
+        flex: 1 0 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 27px 40px 87px;
+        background: #000;
+
+        .form_up {
+
+            h2 {
+                color: #FFF;
+                font-size: 26px;
+                line-height: 27.6px;
+                margin: 29px 0 23px;
+            }
+
+            .invite {
+                color: #FFF;
+                font-size: 14px;
+            }
+
+            .person {
+                color: #FFF;
+                font-size: 13px;
+                line-height: 14px;
+                margin: 10px 0 34px;
+            }
+        }
+
+        .form_form {
+            form {
+                flex: 1 1 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    color: #979797;
+                    font-size: 14px;
+                }
+
+                input {
+                    width: 100%;
+                    margin: 11px 0 20px;
+                    border: 1px solid #979797;
+                    background: #F9FBFD;
+                    font-size: 28px;
+                }
+
+                div {
+                    margin: 11px 0 20px;
+                }
+
+                .button {
+                    background: var(--unnamed, #BA8226);
+                    width: fit-content;
+                    padding: 14px 21px 17px 22px;
+                    color: #FFF;
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+        .form_dowm {
+            display: flex;
+            margin: 25px 0 0 0;
+
+            p {
+                color: #979797;
+                font-size: 14px;
+                line-height: 17.25px;
+                margin: 0 10px 0 0;
+            }
+
+            a {
+                color: #BA8226;
+                font-size: 14px;
+                line-height: 17.25px;
+            }
+        }
+    }
+
+    .img {
+        overflow: hidden;
+
+        img {
+            height: 100%;
+        }
+    }
+}

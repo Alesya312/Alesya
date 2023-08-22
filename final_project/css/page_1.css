@@ -73,6 +73,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+header {
+  background: #000;
+}
+header .container {
+  max-width: 1440px;
+}
+header .container .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 19px;
+}
+header .container .menu .menu_menu ul {
+  display: flex;
+}
+header .container .menu .menu_menu li {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 120%;
+  margin: 0 133px 0 0;
+}
+header .container .menu .menu_menu li:last-child {
+  margin: 0;
+}
+header .container .menu .menu_menu li::after {
+  content: url("../img/about/icon.svg");
+  padding: 0 0 0 9px;
+}
+header .container .menu_check .menu_entry {
+  color: var(--unnamed, #BA8226);
+  font-size: 15px;
+  line-height: 16px;
+}
+header .container .menu_check .menu_check_in {
+  display: inline-block;
+  color: var(--unnamed, #BA8226);
+  text-align: center;
+  font-size: 14px;
+  line-height: 42px;
+  border: 2px solid var(--unnamed, #BA8226);
+  padding: 0 12px 0 13px;
+  margin: 0 0 0 29px;
+}
+
 footer {
   background: #141416;
 }
@@ -140,56 +184,12 @@ footer .container .footer .footer_navig .navig_item .navig_list li ul li::before
   padding: 0 10px 0 0;
 }
 
-header {
-  background: #000;
-}
-header .container {
-  max-width: 1440px;
-}
-header .container .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 0 19px;
-}
-header .container .menu .menu_menu ul {
-  display: flex;
-}
-header .container .menu .menu_menu li {
-  color: #FFF;
-  font-size: 16px;
-  line-height: 120%;
-  margin: 0 133px 0 0;
-}
-header .container .menu .menu_menu li:last-child {
-  margin: 0;
-}
-header .container .menu .menu_menu li::after {
-  content: url("../img/about/icon.svg");
-  padding: 0 0 0 9px;
-}
-header .container .menu_check .menu_entry {
-  color: var(--unnamed, #BA8226);
-  font-size: 15px;
-  line-height: 16px;
-}
-header .container .menu_check .menu_check_in {
-  display: inline-block;
-  color: var(--unnamed, #BA8226);
-  text-align: center;
-  font-size: 14px;
-  line-height: 42px;
-  border: 2px solid var(--unnamed, #BA8226);
-  padding: 0 12px 0 13px;
-  margin: 0 0 0 29px;
-}
-
 body {
   font-family: PT Serif;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1020px;
   margin: 0 auto;
 }
 
@@ -197,77 +197,77 @@ a {
   cursor: url("../img/news/cursor2.svg"), pointer;
 }
 
-.about {
-  margin: 122px 0 58px;
-}
-.about .about_us {
-  display: flex;
-}
-.about .about_us .about_text .about_text_tittle {
-  color: #0A0A0B;
-  font-size: 65px;
-  line-height: 67px;
-  margin: 40px 0 57px;
-}
-.about .about_us .about_text .about_text_text {
+p {
   color: #3B3D40;
-  font-size: 20px;
-  line-height: 34px;
-  margin: 0 51px 0 0;
+  font-size: 17px;
+  line-height: 170%;
+  margin: 20px 0;
 }
 
-.guarantee .direction .container {
-  background: linear-gradient(0deg, #000 0%, #000 100%), #111;
-  box-shadow: 0px 51px 101px 0px rgba(0, 0, 0, 0.27);
+.page_tittle {
+  margin: 75px 0 12px;
 }
-.guarantee .direction .direction_img {
-  float: left;
-  margin: 70px 0 0 40px;
-}
-.guarantee .direction .direction_text {
-  color: #A8A8A8;
-  font-size: 19px;
-  line-height: 33px;
-  padding: 43px 132px 101px 230px;
-}
-.guarantee .direction .direction_tittle {
-  color: #FFF;
-  font-size: 17px;
-  line-height: 33px;
-  padding: 124px 132px 0 230px;
-}
-.guarantee .warranty .container {
-  background: #FFF;
-  box-shadow: 0px 51px 101px 0px rgba(0, 0, 0, 0.05);
-  padding: 95px 90px 113px;
-}
-.guarantee .warranty .container .warranty_text {
-  color: #3B3D40;
-  font-size: 19px;
-  line-height: 34px;
-}
-.guarantee .warranty .container .warranty_tittle {
+.page_tittle h2 {
   color: #0A0A0B;
   font-size: 54px;
-  margin: 25px 0 42px;
+  line-height: 67px;
 }
-.guarantee .warranty .container .warranty_list li {
+.page_tittle .page_tittle_data {
+  color: #BBB;
+  font-size: 17px;
+  line-height: 28px;
+  margin: 20px 0;
+}
+
+.page_new_img {
+  margin: 0 0 50px 0;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.table div {
+  color: #000;
+  font-size: 24px;
+  line-height: 69px;
+  background: #FAFAFB;
+  padding: 0 0 0 34px;
+}
+.table .table_0,
+.table .table_1,
+.table .table_2,
+.table .table_3 {
+  color: #FFF;
+  font-size: 15px;
+  line-height: 58px;
+  background: var(--unnamed, #BA8226);
+}
+
+.page_new ul li {
   color: #3B3D40;
-  font-size: 16px;
-  line-height: 33px;
-  padding: 0 0 23px 50px;
-  background: url("../img/about/Group6.png") 0 3px no-repeat;
+  font-size: 17px;
+  line-height: 170%;
+  background: url("../img/page_1/Vector.png") 0 6px no-repeat;
+  padding: 0 0 15px 50px;
 }
-.guarantee .warranty .container .warranty_list li:last-child {
-  padding: 0 0 0 50px;
+
+.page_new_text p:last-of-type {
+  font-weight: 700;
 }
-.guarantee .benefit {
-  background: url(../img/about/money.png) no-repeat;
-  padding: 284px 0 61px;
+
+.page_new_button {
+  margin: 71px 0 99px;
 }
-.guarantee .benefit .benefit_text {
-  color: #0A0A0B;
-  font-size: 20px;
-  line-height: 34px;
-  margin: 0 0 30px 15px;
-}/*# sourceMappingURL=about_us.css.map */
+.page_new_button a {
+  display: inline-block;
+  border: 1px solid var(--unnamed, #BA8226);
+  color: var(--unnamed, #BA8226);
+  font-size: 14px;
+  line-height: 38px;
+  padding: 0 16px;
+}
+.page_new_button a:after {
+  content: url("../img/page_1/arrow.svg");
+  padding: 0 0 0 15px;
+}/*# sourceMappingURL=page_1.css.map */
