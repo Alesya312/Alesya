@@ -103,12 +103,10 @@ span {
 }
 
 .check_in {
-  width: 100%;
-  height: 100%;
   display: flex;
 }
 .check_in .form {
-  flex: 1 1 15%;
+  flex: 1 0 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -132,7 +130,7 @@ span {
   margin: 10px 0 34px;
 }
 .check_in .form .form_form form {
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -143,7 +141,7 @@ span {
 }
 .check_in .form .form_form form input {
   width: 100%;
-  margin: 11px 0 20px;
+  margin: 11px 0;
   border: 1px solid #979797;
   background: #F9FBFD;
   font-size: 28px;
@@ -181,5 +179,13 @@ span {
   overflow: hidden;
 }
 .check_in .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
+}
+
+@media all and (max-width: 780px) {
+  .img {
+    display: none;
+  }
 }/*# sourceMappingURL=check_in.css.map */
