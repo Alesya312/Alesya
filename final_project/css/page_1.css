@@ -294,6 +294,7 @@ footer .container .footer .footer_navig .navig_item .navig_list li ul li::before
 
 body {
   font-family: PT Serif;
+  overflow: hidden;
 }
 
 .container {
