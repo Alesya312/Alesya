@@ -7,23 +7,31 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -34,7 +42,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -51,7 +61,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -67,14 +78,26 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
+}
+
+a:visited {
+  color: inherit;
 }
 
 /*--------------------*/
 header {
   background: #000;
+}
+header a:visited {
+  color: inherit;
 }
 header .container {
   max-width: 1440px;
@@ -85,28 +108,53 @@ header .container .menu {
   align-items: center;
   padding: 16px 0 19px;
 }
-header .container .menu .menu_menu ul {
+header .container .menu .menu_menu .menu_list {
   display: flex;
+  justify-content: space-between;
+  width: 680px;
 }
-header .container .menu .menu_menu li {
+header .container .menu .menu_menu .menu_list li {
   color: #FFF;
   font-size: 16px;
   line-height: 120%;
-  margin: 0 133px 0 0;
+}
+header .container .menu .menu_menu .menu_list li .sub_menu {
+  display: none;
+  position: absolute;
+  left: -50px;
+  top: 15px;
+  padding: 15px 0px 0px 0px;
+  min-width: 230px;
+}
+header .container .menu .menu_menu .menu_list li .sub_menu li {
+  color: #131417;
+  text-align: center;
+  font-size: 14px;
+  line-height: 15px;
+  background: rgba(184, 134, 11, 0.9);
+  padding: 20px;
+  margin: 0;
+}
+header .container .menu .menu_menu .menu_list li .sub_menu li ul li {
+  list-style: disc inside;
+  padding: 10px;
+}
+header .container .menu .menu_menu .menu_list li .menu_svg {
+  margin: 0 0 0 9px;
+  position: relative;
+}
+header .container .menu .menu_menu .menu_list li .menu_svg:hover .sub_menu {
+  display: block;
 }
 header .container .menu .menu_menu li:last-child {
   margin: 0;
 }
-header .container .menu .menu_menu li::after {
-  content: url("../img/about/icon.svg");
-  padding: 0 0 0 9px;
-}
-header .container .menu_check .menu_entry {
+header .menu_check .menu_entry {
   color: var(--unnamed, #BA8226);
   font-size: 15px;
   line-height: 16px;
 }
-header .container .menu_check .menu_check_in {
+header .menu_check .menu_check_in {
   display: inline-block;
   color: var(--unnamed, #BA8226);
   text-align: center;

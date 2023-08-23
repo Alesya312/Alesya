@@ -19,36 +19,78 @@
                 </div>
                 <div class="header_entry">
                     <a class="entry" href="#">Вход</a>
-                    <a class="check_in" href="#">Регистрация</a>
+                    <a class="check_in" href="check_in.html">Регистрация</a>
                 </div>
             </div>
             <div class="header_down">
                 <menu>
-                    <ul>
-                        <li><a href="#">Зарегистрируйтесь сейчас</a> <svg xmlns="http://www.w3.org/2000/svg" width="21"
-                                height="15" viewBox="0 0 21 15" fill="none">
+                    <ul class="menu_list">
+                        <li class="menu_check_in"><a href="check_in.html">Зарегистрируйтесь сейчас</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15"
+                                fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M12.9999 -0.000150681L13.3535 0.353402L19.8535 6.8534L20.207 7.20696L19.8535 7.56051L13.3535 14.0605L12.9999 14.4141L12.2928 13.707L12.6464 13.3534L18.2928 7.70696L0.499924 7.70696H-7.62939e-05V6.70696H0.499924L18.2928 6.70696L12.6464 1.06051L12.2928 0.706956L12.9999 -0.000150681Z"
                                     fill="white" />
-                            </svg></li>
-                        <li>О нас <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
-                                fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M7.4434 7.33814C7.22758 7.55395 6.87768 7.55395 6.66186 7.33814L0.767124 1.4434C0.551309 1.22759 0.551309 0.877678 0.767124 0.661862C0.982941 0.446046 1.33285 0.446046 1.54866 0.661862L7.05263 6.16583L12.5566 0.661862C12.7724 0.446046 13.1223 0.446046 13.3381 0.661862C13.554 0.877678 13.554 1.22759 13.3381 1.4434L7.4434 7.33814Z"
-                                    fill="#111215" />
-                            </svg></li>
-                        <li>Почему именно Мы<svg xmlns="http://www.w3.org/2000/svg" width="14" height="8"
-                                viewBox="0 0 14 8" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M7.4434 7.33814C7.22758 7.55395 6.87768 7.55395 6.66186 7.33814L0.767124 1.4434C0.551309 1.22759 0.551309 0.877678 0.767124 0.661862C0.982941 0.446046 1.33285 0.446046 1.54866 0.661862L7.05263 6.16583L12.5566 0.661862C12.7724 0.446046 13.1223 0.446046 13.3381 0.661862C13.554 0.877678 13.554 1.22759 13.3381 1.4434L7.4434 7.33814Z"
-                                    fill="#111215" />
-                            </svg></li>
-                        <li>Продукты и Сервисы<svg xmlns="http://www.w3.org/2000/svg" width="14" height="8"
-                                viewBox="0 0 14 8" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M7.4434 7.33814C7.22758 7.55395 6.87768 7.55395 6.66186 7.33814L0.767124 1.4434C0.551309 1.22759 0.551309 0.877678 0.767124 0.661862C0.982941 0.446046 1.33285 0.446046 1.54866 0.661862L7.05263 6.16583L12.5566 0.661862C12.7724 0.446046 13.1223 0.446046 13.3381 0.661862C13.554 0.877678 13.554 1.22759 13.3381 1.4434L7.4434 7.33814Z"
-                                    fill="#111215" />
-                            </svg></li>
+                            </svg>
+                        </li>
+                        <li>
+                            <a href="about_us.html">О нас</a>
+                            <span class="menu_svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.4434 7.33814C7.22758 7.55395 6.87768 7.55395 6.66186 7.33814L0.767124 1.4434C0.551309 1.22759 0.551309 0.877678 0.767124 0.661862C0.982941 0.446046 1.33285 0.446046 1.54866 0.661862L7.05263 6.16583L12.5566 0.661862C12.7724 0.446046 13.1223 0.446046 13.3381 0.661862C13.554 0.877678 13.554 1.22759 13.3381 1.4434L7.4434 7.33814Z"
+                                        fill="#111215" />
+                                </svg>
+                                <ul class="sub-menu">
+                                    <li><a href="#">О нас</a></li>
+                                    <li><a href="#">Наш подход</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </span>
+
+                        </li>
+                        <li><a href="#">Почему именно Мы</a>
+                            <span class="menu_svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.4434 7.33814C7.22758 7.55395 6.87768 7.55395 6.66186 7.33814L0.767124 1.4434C0.551309 1.22759 0.551309 0.877678 0.767124 0.661862C0.982941 0.446046 1.33285 0.446046 1.54866 0.661862L7.05263 6.16583L12.5566 0.661862C12.7724 0.446046 13.1223 0.446046 13.3381 0.661862C13.554 0.877678 13.554 1.22759 13.3381 1.4434L7.4434 7.33814Z"
+                                        fill="#111215" />
+                                </svg>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Наши сильные стороны</a></li>
+                                    <li><a href="#">Инвестируй с нами</a></li>
+                                    <li><a href="#">Социально ответственное</a></li>
+                                    <li><a href="#">Инвестирование</a></li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">Продукты и Сервисы</a>
+                            <span class="menu_svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.4434 7.33814C7.22758 7.55395 6.87768 7.55395 6.66186 7.33814L0.767124 1.4434C0.551309 1.22759 0.551309 0.877678 0.767124 0.661862C0.982941 0.446046 1.33285 0.446046 1.54866 0.661862L7.05263 6.16583L12.5566 0.661862C12.7724 0.446046 13.1223 0.446046 13.3381 0.661862C13.554 0.877678 13.554 1.22759 13.3381 1.4434L7.4434 7.33814Z"
+                                        fill="#111215" />
+                                </svg>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Инвестиционные программы</a></li>
+                                    <li><a href="#">Наше портфолио:</a>
+                                        <ul>
+                                            <li>Недвижимость в Москве и Турции</li>
+                                            <li>Микрофинансы</li>
+                                            <li>IT проекты и Стартапы</li>
+                                            <li>Продукты здоровья</li>
+                                            <li>Игры</li>
+                                            <li>Благотворительность</li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </span>
+                        </li>
                     </ul>
                 </menu>
             </div>
@@ -97,7 +139,42 @@
             <div class="projects_title">
                 Наши проекты
             </div>
-            <div class="projects_slider"></div>
+            <div class="slider">
+                <div class="slider_items">
+                    <div class="slider_item">
+                        <div class="slider_tittle">Uniswap</div>
+                        <div class="slider_link"><a href="#">Подробнее <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="13" height="10" viewBox="0 0 13 10" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.79685 0.706013L8.15041 1.05957L11.9448 4.85395L12.2983 5.2075L11.9448 5.56105L8.15041 9.35543L7.79685 9.70898L7.08975 9.00188L7.4433 8.64832L10.3841 5.7075L0.49997 5.7075H-2.95639e-05V4.7075H0.49997L10.3841 4.7075L7.4433 1.76667L7.08975 1.41312L7.79685 0.706013Z"
+                                        fill="#A8A8A8" />
+                                </svg></a></div>
+                        <div class="slider_text">Uniswap - это децендтрализованная биржа токенов </div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="slider_tittle">PancakeSwap</div>
+                        <div class="slider_link"><a href="#">Подробнее <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="13" height="10" viewBox="0 0 13 10" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.79685 0.706013L8.15041 1.05957L11.9448 4.85395L12.2983 5.2075L11.9448 5.56105L8.15041 9.35543L7.79685 9.70898L7.08975 9.00188L7.4433 8.64832L10.3841 5.7075L0.49997 5.7075H-2.95639e-05V4.7075H0.49997L10.3841 4.7075L7.4433 1.76667L7.08975 1.41312L7.79685 0.706013Z"
+                                        fill="#A8A8A8" />
+                                </svg></a></div>
+                        <div class="slider_text">PancakeSwap - это децентрализованная игровая платформа с каталогом
+                            игровых
+                            ресурсов, ядро которого построено на Blockchain и умных контрактах.</div>
+                    </div>
+                    <div class="slider_item">
+                        <div class="slider_tittle">Uniswap</div>
+                        <div class="slider_link"><a href="#">Подробнее <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="13" height="10" viewBox="0 0 13 10" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.79685 0.706013L8.15041 1.05957L11.9448 4.85395L12.2983 5.2075L11.9448 5.56105L8.15041 9.35543L7.79685 9.70898L7.08975 9.00188L7.4433 8.64832L10.3841 5.7075L0.49997 5.7075H-2.95639e-05V4.7075H0.49997L10.3841 4.7075L7.4433 1.76667L7.08975 1.41312L7.79685 0.706013Z"
+                                        fill="#A8A8A8" />
+                                </svg></a></div>
+                        <div class="slider_text">Uniswap - это децендтрализованная биржа токенов </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="news">
@@ -136,7 +213,7 @@
                 </div>
             </div>
             <div class="news_more">
-                <a href="#">Читать все</a><svg xmlns="http://www.w3.org/2000/svg" width="14" height="10"
+                <a href="news.html">Читать все</a><svg xmlns="http://www.w3.org/2000/svg" width="14" height="10"
                     viewBox="0 0 14 10" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M8.58885 0.706013L8.9424 1.05957L12.7368 4.85395L13.0903 5.2075L12.7368 5.56105L8.9424 9.35543L8.58885 9.70898L7.88174 9.00188L8.23529 8.64832L11.1761 5.7075L1.29196 5.7075H0.791963V4.7075H1.29196L11.1761 4.7075L8.23529 1.76667L7.88174 1.41312L8.58885 0.706013Z"
@@ -163,8 +240,8 @@
                 </div>
             </div>
             <div class="partners_check">
-                <a class="partner_link" href="#">Зарегистрируйтесь сейчас</a><svg xmlns="http://www.w3.org/2000/svg"
-                    width="35" height="15" viewBox="0 0 35 15" fill="none">
+                <a class="partner_link" href="check_in.html">Зарегистрируйтесь сейчас</a><svg
+                    xmlns="http://www.w3.org/2000/svg" width="35" height="15" viewBox="0 0 35 15" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M27.0004 -0.000150681L27.354 0.353402L33.854 6.8534L34.2075 7.20696L33.854 7.56051L27.354 14.0605L27.0004 14.4141L26.2933 13.707L26.6469 13.3534L32.2933 7.70696L1.00041 7.70696H0.500412V6.70696H1.00041L32.2933 6.70696L26.6469 1.06051L26.2933 0.706956L27.0004 -0.000150681Z"
                         fill="white" />
@@ -275,6 +352,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/script.js"></script>
 
 </body>
 
