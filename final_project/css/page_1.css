@@ -108,6 +108,7 @@ header .menu {
   justify-content: space-between;
   align-items: center;
   padding: 16px 0 19px;
+  position: relative;
 }
 header .menu .menu_menu .menu_list {
   display: flex;
