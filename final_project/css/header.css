@@ -88,6 +88,9 @@ header .menu .menu_menu li:last-child {
 }
 
 .menu_burger {
+  width: 100px;
+  height: 100%;
+  display: none;
   width: 375px;
   background: #FFF;
   padding: 20px;
@@ -95,9 +98,10 @@ header .menu .menu_menu li:last-child {
   top: 0;
   right: -375px;
   transition: 0.5s;
+  z-index: 5;
 }
 .menu_burger .menu_burger_entry {
-  margin: 0 0 0 30px;
+  padding: 0 0 0 30px;
   color: #111215;
   font-size: 18px;
   line-height: 16px;

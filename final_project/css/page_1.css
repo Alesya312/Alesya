@@ -183,6 +183,9 @@ header .menu .menu_menu li:last-child {
 }
 
 .menu_burger {
+  width: 100px;
+  height: 100%;
+  display: none;
   width: 375px;
   background: #FFF;
   padding: 20px;
@@ -190,9 +193,10 @@ header .menu .menu_menu li:last-child {
   top: 0;
   right: -375px;
   transition: 0.5s;
+  z-index: 5;
 }
 .menu_burger .menu_burger_entry {
-  margin: 0 0 0 30px;
+  padding: 0 0 0 30px;
   color: #111215;
   font-size: 18px;
   line-height: 16px;
@@ -294,7 +298,7 @@ footer .container .footer .footer_navig .navig_item .navig_list li ul li::before
 
 body {
   font-family: PT Serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -432,6 +436,10 @@ p {
   }
   .menu_check {
     display: none;
+  }
+  .menu_burger {
+    display: block;
+    right: -375px;
   }
   .active {
     display: inline-block;

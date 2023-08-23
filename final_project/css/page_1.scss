@@ -5,7 +5,7 @@
 
 body {
     font-family: PT Serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -163,12 +163,18 @@ p {
         width: 100%;
     }
 
+
     .menu_menu {
         display: none;
     }
 
     .menu_check {
         display: none;
+    }
+
+    .menu_burger {
+        display: block;
+        right: -375px;
     }
 
     .active {
