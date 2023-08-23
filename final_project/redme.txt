@@ -1,1 +1,38 @@
 выпадающее меню - все страницы
+
+@media all and (max-width: 1290px) {
+    header .container {
+        max-width: 1050px;
+    }
+
+    header .menu .menu_menu .menu_list {
+        width: 570px;
+    }
+
+    footer .container {
+        max-width: 1050px;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    .container {
+        max-width: 980px;
+    }
+
+    header .container {
+        max-width: 980px;
+    }
+
+    header .menu .menu_menu .menu_list {
+        width: 550px;
+    }
+
+    footer .container {
+        max-width: 980px;
+    }
+
+    .page_new_img img {
+        width: 980px;
+    }
+
+}

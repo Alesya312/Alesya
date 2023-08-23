@@ -1,12 +1,4 @@
 $(document).ready(function () {
-    $('.slider_items').slick({
-        dots: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-    });
-});
-
-$(document).ready(function () {
     $(".open").addClass('active')
 
     $(".open").on("click", function () {

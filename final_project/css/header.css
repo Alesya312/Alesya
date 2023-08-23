@@ -1,5 +1,6 @@
 header {
   background: #000;
+  position: relative;
 }
 header a:visited {
   color: inherit;
@@ -7,23 +8,23 @@ header a:visited {
 header .container {
   max-width: 1440px;
 }
-header .container .menu {
+header .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 0 19px;
 }
-header .container .menu .menu_menu .menu_list {
+header .menu .menu_menu .menu_list {
   display: flex;
   justify-content: space-between;
   width: 680px;
 }
-header .container .menu .menu_menu .menu_list li {
+header .menu .menu_menu .menu_list li {
   color: #FFF;
   font-size: 16px;
   line-height: 120%;
 }
-header .container .menu .menu_menu .menu_list li .sub_menu {
+header .menu .menu_menu .menu_list li .sub_menu {
   display: none;
   position: absolute;
   left: -50px;
@@ -31,7 +32,7 @@ header .container .menu .menu_menu .menu_list li .sub_menu {
   padding: 15px 0px 0px 0px;
   min-width: 230px;
 }
-header .container .menu .menu_menu .menu_list li .sub_menu li {
+header .menu .menu_menu .menu_list li .sub_menu li {
   color: #131417;
   text-align: center;
   font-size: 14px;
@@ -40,26 +41,27 @@ header .container .menu .menu_menu .menu_list li .sub_menu li {
   padding: 20px;
   margin: 0;
 }
-header .container .menu .menu_menu .menu_list li .sub_menu li ul li {
+header .menu .menu_menu .menu_list li .sub_menu li ul li {
   list-style: disc inside;
   padding: 10px;
 }
-header .container .menu .menu_menu .menu_list li .menu_svg {
+header .menu .menu_menu .menu_list li .menu_svg {
   margin: 0 0 0 9px;
   position: relative;
 }
-header .container .menu .menu_menu .menu_list li .menu_svg:hover .sub_menu {
+header .menu .menu_menu .menu_list li .menu_svg:hover .sub_menu {
   display: block;
 }
-header .container .menu .menu_menu li:last-child {
+header .menu .menu_menu li:last-child {
   margin: 0;
 }
-header .menu_check .menu_entry {
+
+.menu_check .menu_entry {
   color: var(--unnamed, #BA8226);
   font-size: 15px;
   line-height: 16px;
 }
-header .menu_check .menu_check_in {
+.menu_check .menu_check_in {
   display: inline-block;
   color: var(--unnamed, #BA8226);
   text-align: center;
@@ -68,4 +70,62 @@ header .menu_check .menu_check_in {
   border: 2px solid var(--unnamed, #BA8226);
   padding: 0 12px 0 13px;
   margin: 0 0 0 29px;
+}
+
+.open {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+
+.close {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  z-index: 10;
+}
+
+.menu_burger {
+  width: 375px;
+  background: #FFF;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: -375px;
+  transition: 0.5s;
+}
+.menu_burger .menu_burger_entry {
+  margin: 0 0 0 30px;
+  color: #111215;
+  font-size: 18px;
+  line-height: 16px;
+}
+.menu_burger .menu_burger_check {
+  color: #111215;
+  text-align: center;
+  font-size: 18px;
+  line-height: 42px;
+  display: inline-block;
+  margin: 0 0 0 31px;
+  padding: 0 15px;
+  border: 2px solid rgba(105, 107, 112, 0.16);
+}
+.menu_burger p {
+  color: var(--unnamed, #BA8226);
+  text-align: center;
+  font-size: 18px;
+  line-height: 16px;
+  margin: 40px 0 0 0;
+}
+.menu_burger ul li {
+  color: #131417;
+  text-align: center;
+  font-size: 18px;
+  line-height: 15px;
+  margin: 10px 0;
+}
+.menu_burger ul li ul li {
+  list-style: disc inside;
 }/*# sourceMappingURL=header.css.map */
