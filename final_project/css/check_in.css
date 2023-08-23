@@ -97,7 +97,8 @@ body {
   font-family: PT Serif;
 }
 
-a {
+a,
+span {
   cursor: url("../img/news/cursor2.svg"), pointer;
 }
 

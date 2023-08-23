@@ -241,7 +241,8 @@ body {
   margin: 0 auto;
 }
 
-a {
+a,
+span {
   cursor: url("../img/news/cursor2.svg"), pointer;
 }
 
