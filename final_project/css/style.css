@@ -240,12 +240,13 @@ header .header_down .menu_list li .sub-menu li {
   text-align: center;
   font-size: 14px;
   line-height: 15px;
-  background: rgba(184, 134, 11, 0.9);
+  background: rgb(184, 134, 11);
   padding: 20px;
 }
 header .header_down .menu_list li .sub-menu li ul li {
   list-style: disc inside;
   padding: 10px;
+  background: rgb(184, 134, 11);
 }
 header .header_down .menu_list li .menu_svg {
   margin: 0 0 0 9px;
@@ -258,7 +259,7 @@ header .header_down .menu_list li:last-child {
   padding: 0 120px 0 0;
 }
 header .header_down .menu_list .menu_check_in {
-  background: rgba(184, 134, 11, 0.9);
+  background: #B8860B;
   padding: 0 69px 0 65px;
   font-size: 16px;
   line-height: 120%;
