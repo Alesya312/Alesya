@@ -17,7 +17,6 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 16px 0 19px;
-        position: relative;
 
         .menu_menu {
 
@@ -112,9 +111,6 @@ header {
 }
 
 .menu_burger {
-    width: 100px;
-    height: 100%;
-    display: none;
     width: 375px;
     background: #FFF;
     padding: 20px;
@@ -122,7 +118,6 @@ header {
     top: 0;
     right: -375px;
     transition: 0.5s;
-    z-index: 5;
 
     .menu_burger_entry {
         padding: 0 0 0 30px;

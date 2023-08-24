@@ -108,7 +108,6 @@ header .menu {
   justify-content: space-between;
   align-items: center;
   padding: 16px 0 19px;
-  position: relative;
 }
 header .menu .menu_menu .menu_list {
   display: flex;
@@ -184,9 +183,6 @@ header .menu .menu_menu li:last-child {
 }
 
 .menu_burger {
-  width: 100px;
-  height: 100%;
-  display: none;
   width: 375px;
   background: #FFF;
   padding: 20px;
@@ -194,7 +190,6 @@ header .menu .menu_menu li:last-child {
   top: 0;
   right: -375px;
   transition: 0.5s;
-  z-index: 5;
 }
 .menu_burger .menu_burger_entry {
   padding: 0 0 0 30px;
@@ -429,6 +424,9 @@ p {
     max-width: none;
     margin: 0 15px;
   }
+  .page_tittle h2 {
+    font-size: 46px;
+  }
   .page_new_img img {
     width: 100%;
   }
@@ -437,10 +435,6 @@ p {
   }
   .menu_check {
     display: none;
-  }
-  .menu_burger {
-    display: block;
-    right: -375px;
   }
   .active {
     display: inline-block;
@@ -453,7 +447,7 @@ p {
   }
   .table div {
     color: #000;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 69px;
     background: #FAFAFB;
     padding: 0 0 0 34px;

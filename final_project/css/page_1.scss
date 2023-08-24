@@ -159,10 +159,13 @@ p {
         margin: 0 15px;
     }
 
+    .page_tittle h2 {
+        font-size: 46px;
+    }
+
     .page_new_img img {
         width: 100%;
     }
-
 
     .menu_menu {
         display: none;
@@ -170,11 +173,6 @@ p {
 
     .menu_check {
         display: none;
-    }
-
-    .menu_burger {
-        display: block;
-        right: -375px;
     }
 
     .active {
@@ -190,7 +188,7 @@ p {
 
         div {
             color: #000;
-            font-size: 24px;
+            font-size: 20px;
             line-height: 69px;
             background: #FAFAFB;
             padding: 0 0 0 34px;
