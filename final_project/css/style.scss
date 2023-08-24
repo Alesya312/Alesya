@@ -1,6 +1,8 @@
 @import '../fonts/fonts.scss';
 @import 'style0.scss';
+@import 'header.scss';
 @import 'footer.scss';
+
 
 body {
     font-family: PT Serif;
@@ -135,6 +137,34 @@ header {
 
         }
     }
+
+    .menu {
+        display: none;
+    }
+
+    .header_check_in {
+        padding: 63px 0 20px;
+        display: none;
+
+        p {
+            color: #FFF;
+            font-size: 30px;
+            line-height: 120%;
+            margin: 50px 0;
+        }
+
+        a {
+            display: inline-block;
+            color: #FFF;
+            font-family: PT Serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 112px;
+            padding: 0 15px;
+            background: #B8860B;
+        }
+    }
 }
 
 .steps {
@@ -242,6 +272,7 @@ header {
 .projects {
     background: #BA8226;
     padding: 100px 0;
+    overflow: hidden;
 
     .projects_title {
         color: #FFF;
@@ -469,19 +500,42 @@ header {
     }
 }
 
+@media all and (max-width: 1550px) {
+    header .header_down .menu_list {
+        width: 1100px;
+    }
+
+    header .header_down .menu_list li:last-child {
+        padding: 0 10px 0 0;
+    }
+}
+
+
 @media all and (max-width: 1290px) {
+
     header .container {
         max-width: 1050px;
     }
 
-    header .menu .menu_menu .menu_list {
-        width: 570px;
+    header .header_up,
+    header .header_down {
+        display: none;
+    }
+
+    header .header_check_in {
+        display: block;
+    }
+
+    header .menu {
+        display: flex;
+        background: #141416;
     }
 
     footer .container {
         max-width: 1050px;
     }
 }
+
 
 @media all and (max-width: 1050px) {
     .container {
