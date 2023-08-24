@@ -102,8 +102,12 @@ span {
     }
 
     .benefit {
-        background: url(../img/about/money.png) no-repeat;
-        padding: 284px 0 61px;
+
+
+        .container {
+            background: url(../img/about/money.png) 0 0 no-repeat;
+            padding: 284px 0 61px;
+        }
 
         .benefit_text {
             color: #0A0A0B;
