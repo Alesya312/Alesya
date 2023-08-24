@@ -162,7 +162,6 @@ footer .container .footer .footer_navig .navig_item .navig_list li ul li::before
 
 header {
   background: #000;
-  position: relative;
 }
 header a:visited {
   color: inherit;
@@ -250,12 +249,13 @@ header .menu .menu_menu li:last-child {
 }
 
 .menu_burger {
+  display: none;
   width: 375px;
   background: #FFF;
   padding: 20px;
   position: absolute;
   top: 0;
-  right: -375px;
+  right: 0px;
   transition: 0.5s;
 }
 .menu_burger .menu_burger_entry {

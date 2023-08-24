@@ -1,6 +1,5 @@
 header {
     background: #000;
-    position: relative;
 
     a:visited {
         color: inherit;
@@ -111,12 +110,13 @@ header {
 }
 
 .menu_burger {
+    display: none;
     width: 375px;
     background: #FFF;
     padding: 20px;
     position: absolute;
     top: 0;
-    right: -375px;
+    right: 0px;
     transition: 0.5s;
 
     .menu_burger_entry {
